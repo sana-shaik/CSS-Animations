@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stary Night Banner Animation </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scene">
+        <div class="moon"></div>
+        <img src="./images/forest.png" alt="forest" class="forest">
+        <img src="./images/cloud1.png" alt="cloud1" class="cloud1">
+        <img src="./images/cloud2.png" alt="cloud2" class="cloud2">
+        <img src="./images/cloud3.png" alt="cloud3" class="cloud3">
+        <img src="./images/cloud1.png" alt="cloud1" class="cloud4">
+        <img src="./images/cloud2.png" alt="cloud2" class="cloud5">
+        <img src="./images/cloud3.png" alt="cloud3" class="cloud6">
+    </div>
+    <script>
+        function stars() {
+            let count = 500;
+            let scene = document.querySelector('.scene');
+            let i = 0;
+            while (i < count) {
+                let star = document.createElement('i');
+                let x = Math.floor(Math.random() * window.innerWidth);
+                let y = Math.floor(Math.random() * window.innerHeight);
+                let duration = Math.random() * 10;
+                let size = Math.random() * 2;
+
+                star.style.left = x + 'px';
+                star.style.top = y + 'px';
+                star.style.width = 1 + size + 'px';
+                star.style.height = 1 + size + 'px';
+
+                star.style.animationDuration = 5 + duration + 's';
+                star.style.animationDelay = duration + 's';
+                scene.appendChild(star);
+                i++;
+            }
+        }
+        stars();
+    </script>
+</body>
+</html>
