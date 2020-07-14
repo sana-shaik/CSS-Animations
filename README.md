@@ -31,3 +31,11 @@
 ## Product Card UI
 
 ![ProductCard](https://user-images.githubusercontent.com/45564856/87336018-dcc95080-c55e-11ea-87d5-a93601823473.gif)
+
+## Menu Item Hover Effects
+
+![MenuItemHover](https://user-images.githubusercontent.com/45564856/87458322-6e03fa00-c627-11ea-9ca6-72dd33114a70.gif)
+
+## Moon Light Parallax Effect
+
+![MoonLightParallax4](https://user-images.githubusercontent.com/45564856/87458765-11eda580-c628-11ea-9b2d-1e214aa5f42c.gif)
