@@ -39,3 +39,7 @@
 ## Moon Light Parallax Effect
 
 ![MoonLightParallax4](https://user-images.githubusercontent.com/45564856/87458765-11eda580-c628-11ea-9b2d-1e214aa5f42c.gif)
+
+## ![Skewed Box Border](https://github.com/sana-shaik/CSS-Animations/tree/master/Skewed%20Border)
+
+![SkewedBoxBorder](https://user-images.githubusercontent.com/45564856/87858791-18dd2680-c94e-11ea-9dc8-ee643bdd3fc6.gif)
