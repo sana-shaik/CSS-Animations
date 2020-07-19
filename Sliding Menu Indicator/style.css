@@ -10,6 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background: #262626;
 }
 
 nav {
@@ -21,7 +22,7 @@ nav a {
     position: relative;
     margin: 0 20px;
     font-size: 2em;
-    color: #000;
+    color: #fff;
     text-decoration: none;
 
 }
@@ -31,7 +32,7 @@ nav #marker {
     left: 0px;
     height: 4px;
     width: 0;
-    background: #000;
+    background:#bb2cd9;
     bottom: -8px;
     transition: 0.5s;
     border-radius: 4px;
