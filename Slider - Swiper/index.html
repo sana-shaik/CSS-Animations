@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Swiper 3D Cloverflow Effect</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+   
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+     <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./images/men-s-blue-dress-shirt-1043471.jpg"></div>
+        <div class="swiper-slide"><img src="./images/adult-attractive-beautiful-beauty-415829.jpg"></div>
+        <div class="swiper-slide"><img src="./images/adult-beard-boy-casual-220453.jpg"></div>
+        <div class="swiper-slide"><img src="./images/woman-camera-girl-photographer-139829.jpg"></div>
+        <div class="swiper-slide"><img src="./images/shallow-focus-photo-of-man-in-white-and-black-polka-dot-2269872.jpg"></div>
+        <div class="swiper-slide"><img src="./images/shallow-focus-photo-of-woman-in-gray-white-and-brown-striped-2726111.jpg"></div>
+        <div class="swiper-slide"><img src="./images/woman-holding-and-using-a-camera-3226441.jpg"></div>
+    </div>
+  
+  
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 20,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows: true,
+      },
+      loop:true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+ 
+    });
+    </script>
+</body>
+</html>
