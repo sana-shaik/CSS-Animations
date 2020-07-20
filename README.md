@@ -47,3 +47,11 @@
 ## ![Circular Progress Bar](https://github.com/sana-shaik/CSS-Animations/tree/master/Circular%20Progress%20Bar)
 
 ![CircularProgressBar](https://user-images.githubusercontent.com/45564856/87858841-7bcebd80-c94e-11ea-851c-b31235b7d3cf.gif)
+
+## ![Sliding Menu Indicator](https://github.com/sana-shaik/CSS-Animations/tree/master/Sliding%20Menu%20Indicator)
+
+![SlidingMenuIndicator1](https://user-images.githubusercontent.com/45564856/87898743-ae6ed800-ca6c-11ea-8151-351880fa4b5f.gif)
+
+## ![Slider Swiper](https://github.com/sana-shaik/CSS-Animations/tree/master/Slider%20-%20Swiper)
+
+![Swiper](https://user-images.githubusercontent.com/45564856/87898802-d3fbe180-ca6c-11ea-907e-76f7a516922d.gif)
